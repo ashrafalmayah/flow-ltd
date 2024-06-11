@@ -11,6 +11,7 @@ export default {
                 rubik: ['"Rubik"'],
             },
             colors: {
+                background: "#F4F0ED",
                 primary: "#0F3960",
             },
 

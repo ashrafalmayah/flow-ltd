@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
+<html class="scroll-smooth overflow-x-clip" lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -15,11 +15,12 @@
     <title>Flow LTD</title>
 </head>
 
-<body class="min-h-screen bg-amber-50 font-rubik">
+<body class="min-h-screen bg-background font-rubik overflow-x-clip">
     <x-navbar />
     <main class="mx-auto max-w-5xl px-4">
-        {{ $slot }}
+            {{ $slot }}
     </main>
+    <x-footer />
 </body>
 
 </html>

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.break-out{
+    @apply  mx-[-50vw] left-1/2 right-1/2 max-w-[100vw] w-screen ;
+}

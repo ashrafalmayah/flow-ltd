@@ -1,11 +1,9 @@
-<section class="grid sm:grid-cols-2 p-8 justify-items-end items-center gap-24">
-    <div class="space-y-4">
-        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
-        <h1 class="text-xl font-semibold spacing-2 tracking-tight">شريكك الموثوق والاحترافي للخدمات المساندة</h1>
-        <p>شركة سعودية متخصصة في الأعمال والخدمات المساندة (الصيانة والنظافة والتشغيل)</p>
-        <x-contact-us-button />
-    </div>
-    <div>
-        <img class="w-64" src="{{ asset('assets/images/hero.png') }}" alt="">
-    </div>
+<section class="relative grid items-center justify-items-center gap-4 p-8 py-36 text-center">
+    <img class="w-[32rem]" src="{{ asset('assets/images/logo2.png') }}" alt="Logo">
+    <h1 class="spacing-2 text-xl sm:text-3xl font-semibold tracking-tight">شريكك الموثوق والاحترافي للخدمات المساندة</h1>
+    <p>شركة سعودية متخصصة في الأعمال والخدمات المساندة (الصيانة والنظافة والتشغيل)</p>
+    <x-contact-us-button class="text-2xl " />
+
+    <img class="absolute -left-1/4 -z-10 bottom-0 sm:-bottom-24 sm:w-96" src="{{ asset('assets/images/icon.svg') }}" alt="">
 </section>
+<img class="absolute -right-24 top-0 sm:-top-24 sm:w-96" src="{{ asset('assets/images/icon.svg') }}" alt="">
