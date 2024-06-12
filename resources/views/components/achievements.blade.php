@@ -1,9 +1,9 @@
 <section id="achievements" class="scroll-mt-24 py-8">
-    <h1 class="text-center text-5xl">بعض من انجازاتنا</h1>
-    <div class="mt-8 grid sm:grid-cols-3 gap-4 text-center">
-        <x-achievement-card src="{{ asset('assets/images/achievements/leap-icon.jpg') }}" title="المؤتمر التقني LEAP"
-            year="2022" />
+    <h1 class="text-center text-5xl">{{ __('Some of Our Achievements') }}</h1>
+    <div class="mt-8 grid gap-4 text-center sm:grid-cols-3">
+        <x-achievement-card src="{{ asset('assets/images/achievements/leap-icon.jpg') }}"
+            title="{{ __('LEAP Technical Conference') }}" year="2022"></x-achievement-card>
         <x-achievement-card src="{{ asset('assets/images/achievements/falcons-icon.avif') }}"
-            title="معرض الصقور والصيد السعودي الدولي" year="2022" />
+            title="{{ __('Saudi International Falcons and Hunting Exhibition') }}" year="2022"></x-achievement-card>
     </div>
 </section>

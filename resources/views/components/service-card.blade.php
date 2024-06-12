@@ -1,1 +1,5 @@
-<div class="flex-1 rounded-lg border-2 border-gray-400 bg-white p-4 text-center">{{ $slot }}</div>
+@props(['src' => ''])
+<div class="flex-1 rounded-lg shadow-md hover:shadow-primary transition duration-500 py-10 px-12 min-w-52 grid place-content-center text-center space-y-6">
+    <img class="mx-auto" src="{{ $src }}" alt="">
+    <h2 class="text-lg">{{ $slot }}</h2>
+</div>

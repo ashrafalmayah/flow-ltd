@@ -2,22 +2,18 @@
     id="footer">
     <div class="absolute inset-6 mx-auto max-w-5xl">
         <span class="absolute block h-3 w-full bg-white"></span>
-        <span class="absolute block h-full w-3 bg-white"></span>
+        <span class="absolute right-0 block h-full w-3 bg-white"></span>
         <span class="absolute left-0 block h-full w-3 bg-white"></span>
         <span class="absolute bottom-0 block h-3 w-full bg-white"></span>
-        {{-- <img src="{{ asset('assets/images/footer-border-mobile.png') }}" alt="" class="h-full w-full sm:hidden">
-        <svg class="w-full sm:w-auto h-full hidden sm:block" viewBox="0 0 1215 661" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 238.547V6.10156H1209V654.102H426.325" stroke="white" stroke-width="12" />
-        </svg> --}}
         <img class="absolute -bottom-16 -left-16 w-72 bg-primary sm:w-96" src="{{ asset('assets/images/icon.svg') }}"
             alt="">
     </div>
     <div class="z-10 space-y-4 p-12">
-        <h1 class="text-5xl font-bold sm:text-7xl">تواصل معنا</h1>
-        <div class="flex flex-wrap justify-center gap-4">
-            <span>+966800128122</span>
-            <span>+966800128122</span>
-            <span>+966800128122</span>
+        <h1 class="text-5xl font-bold sm:text-7xl">{{ __("Contact Us") }}</h1>
+        <div dir="ltr" class="flex flex-wrap justify-center gap-4">
+            <span>+966 80 012 8122</span>
+            <span>+966 57 610 9077</span>
+            <span>+966 50 539 4511</span>
         </div>
         <a href="wa.me/+966800128122"
             class="group flex items-center justify-center gap-4 fill-white transition duration-300 hover:fill-primary">
