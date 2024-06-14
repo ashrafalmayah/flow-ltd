@@ -5,7 +5,7 @@
             class="absolute -left-full rtl:left-auto rtl:-right-full sm:static bottom-0 h-screen sm:h-auto top-0 w-full sm:w-auto gap-4 bg-white sm:bg-transparent sm:pt-0 pt-16 text-center text-primary transition-all duration-500 flex sm:flex-row flex-col text-2xl sm:text-lg">
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#">{{ __("Home") }}</a></li>
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#services">{{ __("Our Services") }}</a></li>
-            <li @click="mobileMenuActive = false" class="hover:underline"><a href="#ksa-vision">{{ __("Kingdom Vision") }}</a></li>
+            {{-- <li @click="mobileMenuActive = false" class="hover:underline"><a href="#ksa-vision">{{ __("Kingdom Vision") }}</a></li> --}}
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#message">{{ __("Our Message") }}</a></li>
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#achievements">{{ __("Our Achievements") }}</a></li>
         </ul>

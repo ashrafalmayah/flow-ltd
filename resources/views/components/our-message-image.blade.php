@@ -1,4 +1,4 @@
-<svg version="1.1" id="svg1" width="693.33331" height="693.33331" viewBox="0 0 693.33331 693.33331"
+<svg version="1.1" id="svg1" width="500" height="500" viewBox="100 100 500 500"
     xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
 
     <g id="g1">

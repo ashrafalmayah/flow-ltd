@@ -16,12 +16,17 @@ export default {
             },
 
             animation: {
-                "infinite-scroll": "infinite-scroll 10s -5s linear infinite",
+                "infinite-scroll": "infinite-scroll 20s -10s linear infinite",
+                "infinite-scroll-delayed": "infinite-scroll-2 20s linear infinite",
             },
             keyframes: {
                 "infinite-scroll": {
-                    "0%": { transform: "translateX(0%)" },
+                    "0%": { transform: "translateX(100%)" },
                     "100%": { transform: "translateX(-100%)" },
+                },
+                "infinite-scroll-2": {
+                    "0%": { transform: "translateX(0%)" },
+                    "100%": { transform: "translateX(-200%)" },
                 },
             },
         },
