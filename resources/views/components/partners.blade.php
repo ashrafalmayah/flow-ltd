@@ -21,7 +21,7 @@
             <img src="{{ asset('assets/images/partners/زاد.png') }}" alt="Noon" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/ثابت.png') }}" alt="Noon" />
+            <img src="{{ asset('assets/images/partners/باوزير.png') }}" alt="Bawazir" />
         </li>
         <li>
             <img src="{{ asset('assets/images/partners/الدخيل.png') }}" alt="Aldakheel" />
