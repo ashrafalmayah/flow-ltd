@@ -5,7 +5,7 @@
         <span class="absolute right-0 block h-full w-3 bg-white"></span>
         <span class="absolute left-0 block h-full w-3 bg-white"></span>
         <span class="absolute bottom-0 block h-3 w-full bg-white"></span>
-        <img class="absolute -bottom-16 -left-16 w-72 bg-primary sm:w-96 select-none" src="{{ asset('assets/images/icon.svg') }}"
+        <img class="absolute -bottom-16 -left-16 w-52 bg-primary sm:w-96 select-none" src="{{ asset('assets/images/icon.svg') }}"
             alt="">
     </div>
     <div class="z-10 space-y-4 p-12">
@@ -15,8 +15,8 @@
             <span>+966 57 610 9077</span>
             <span>+966 50 539 4511</span>
         </div>
-        <a href="wa.me/+966800128122"
-            class="group flex items-center justify-center gap-4 fill-white transition duration-300 hover:fill-primary">
+        <a href="https://wa.me/+966800128122"
+            class="group flex items-center justify-center gap-2 sm:gap-4 fill-white transition duration-300 hover:fill-primary">
             <svg class="stroke-white group-hover:stroke-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="35" height="35" viewBox="0 0 50 50">
                 <path class="h-full w-full"
@@ -27,7 +27,7 @@
         </a>
 
         <a href="mailto:customer_care@flow-ltd.sa"
-            class="group flex items-center justify-center gap-4 fill-white transition duration-300 hover:fill-primary">
+            class="group flex items-center justify-center gap-2 sm:gap-4 fill-white transition duration-300 hover:fill-primary">
             <svg class="stroke-white group-hover:stroke-[1rem]" width="40" height="35" viewBox="0 0 512 512"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
