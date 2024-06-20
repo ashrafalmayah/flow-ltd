@@ -5,7 +5,7 @@
             title="{{ __('LEAP Technical Conference') }}" year="2022"></x-achievement-card>
         <x-achievement-card src="{{ asset('assets/images/achievements/falcons-icon.avif') }}"
             title="{{ __('Saudi International Falcons and Hunting Exhibition') }}" year="2022"></x-achievement-card>
-        <x-achievement-card src="{{ asset('assets/images/achievements/IEC-logo.png') }}"
-            title="{{ __('International E-Commerce EXPO') }}" year="2023"></x-achievement-card>
+        <x-achievement-card src="{{ asset('assets/images/achievements/sidmc.png') }}"
+            title="{!! __('Saudi International Digital Marketing & E-Commerce expo') !!}" year="2023"></x-achievement-card>
     </div>
 </section>

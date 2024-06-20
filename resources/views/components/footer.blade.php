@@ -5,7 +5,7 @@
         <span class="absolute right-0 block h-full w-3 bg-white"></span>
         <span class="absolute left-0 block h-full w-3 bg-white"></span>
         <span class="absolute bottom-0 block h-3 w-full bg-white"></span>
-        <img class="absolute -bottom-16 -left-16 w-52 bg-primary sm:w-96 select-none" src="{{ asset('assets/images/icon.svg') }}"
+        <img class="absolute -bottom-16 -right-16 rtl:-left-16 w-52 bg-primary sm:w-96 select-none" src="{{ asset('assets/images/icon.svg') }}"
             alt="">
     </div>
     <div class="z-10 space-y-4 p-12">

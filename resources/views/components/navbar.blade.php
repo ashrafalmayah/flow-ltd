@@ -9,7 +9,7 @@
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#message">{{ __("Our Message") }}</a></li>
             <li @click="mobileMenuActive = false" class="hover:underline"><a href="#achievements">{{ __("Our Achievements") }}</a></li>
         </ul>
-        <x-contact-us-button class="absolute rtl:left-4 rtl:right-auto right-4 z-20" />
+        <x-contact-us-button @click="mobileMenuActive = false"  class="absolute rtl:left-4 rtl:right-auto right-4 z-20" />
 
         {{-- Mobile Menu --}}
         <span @click="mobileMenuActive = !mobileMenuActive;" class="mx-6 block cursor-pointer sm:hidden z-[60]">

@@ -1,6 +1,6 @@
 <section class="relative grid items-center justify-items-center gap-4 p-8 py-36 text-center">
     <img class="w-[32rem] select-none" src="{{ asset('assets/images/logo2.png') }}" alt="Logo">
-    <h1 class="spacing-2 text-xl sm:text-3xl font-semibold tracking-tight">{{ __("Your Trusted and Professional Partner for Support Services") }}</h1>
+    <h1 class="spacing-2 text-xl sm:text-3xl font-semibold tracking-tight">{{ __("Your Trusted Partner for Support Services") }}</h1>
 <p>{{ __("A Saudi company specialized in business and support services (maintenance, cleaning, and operation)") }}</p>
 
     <x-contact-us-button class="text-2xl " />
