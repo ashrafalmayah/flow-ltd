@@ -1,5 +1,5 @@
-<section class="grid items-center justify-items-center gap-4 p-8 py-36 text-center text-white">
-    <div class="absolute overflow-hidden break-out">
+<section class="relative grid items-center justify-items-center gap-4 p-8 py-36 text-center text-white">
+    <div class="absolute top-0 bottom-0 overflow-hidden break-out">
         <div class="absolute inset-0 -z-10 bg-black"></div>
         <div class="absolute inset-0 -z-10 bg-[url('/assets/images/background.jpg')] opacity-30"></div>
         <img class="absolute left-0 -z-10 bottom-0 sm:-bottom-24 sm:w-96 select-none"
