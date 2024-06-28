@@ -3,13 +3,13 @@
         <ul :class="mobileMenuActive ? 'rtl:!right-0 !left-0' : ''"
             class="absolute -left-full rtl:left-auto rtl:-right-full sm:static bottom-0 h-screen sm:h-auto top-0 w-full sm:w-auto gap-1 sm:gap-4 bg-primary sm:bg-transparent sm:pt-0 pt-16 text-center text-white transition-all duration-500 flex sm:flex-row flex-col text-2xl sm:text-lg">
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="px-4 py-3" href="#">{{ __('Home') }}</a></li>
+                    class="block px-4 py-3 sm:py-1" href="#">{{ __('Home') }}</a></li>
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="px-4 py-3" href="#services">{{ __('Our Services') }}</a></li>
+                    class="block px-4 py-3 sm:py-1" href="#services">{{ __('Our Services') }}</a></li>
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="px-4 py-3" href="#message">{{ __('Our Message') }}</a></li>
+                    class="block px-4 py-3 sm:py-1" href="#message">{{ __('Our Message') }}</a></li>
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="px-4 py-3" href="#achievements">{{ __('Our Achievements') }}</a></li>
+                    class="block px-4 py-3 sm:py-1" href="#achievements">{{ __('Our Achievements') }}</a></li>
         </ul>
         <x-contact-us-button @click="mobileMenuActive = false"
             class="bg-white !text-primary absolute rtl:left-4 rtl:right-auto right-4 z-20" />
