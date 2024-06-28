@@ -1,11 +1,11 @@
 <footer class="relative grid py-12 place-content-center overflow-hidden bg-primary text-center text-white" id="footer">
-        <img class="absolute top-1/2 -translate-x-1/2 right-[10%] rtl:left-[10%] rtl:right-auto w-72 bg-primary sm:w-[450px] select-none"
+        <img class="absolute top-1/2 -translate-y-1/2 right-[10%] rtl:left-[10%] rtl:right-auto w-72 bg-primary sm:w-[450px] select-none"
             src="{{ asset('assets/images/icon.svg') }}" alt="">
     <div class="z-10 space-y-4 p-12">
         <h2 class="text-5xl font-bold sm:text-7xl">{{ __('Contact Us') }}</h2>
         <div class="grid sm:grid-cols-2">
 
-        <div dir="ltr">
+        <div dir="ltr" class="grid">
             <span>+966 59 072 7730 </span>
             <span>+966 57 888 8811 </span>
             <span>+966 57 666 6611 </span>
