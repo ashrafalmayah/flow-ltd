@@ -1,8 +1,8 @@
 <x-layout>
     <x-hero />
-    <x-partners />
+    <x-message />
     <x-services />
     {{-- <x-ksa-vision /> --}}
-    <x-message />
     <x-achievements />
+    <x-partners />
 </x-layout>
