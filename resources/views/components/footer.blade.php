@@ -9,7 +9,9 @@
     </div>
     <div class="z-10 space-y-4 p-12">
         <h2 class="text-5xl font-bold sm:text-7xl">{{ __('Contact Us') }}</h2>
-        <div dir="ltr" class="flex flex-wrap justify-center gap-4">
+        <div class="grid sm:grid-cols-2">
+
+        <div dir="ltr">
             <span>+966 59 072 7730 </span>
             <span>+966 57 888 8811 </span>
             <span>+966 57 666 6611 </span>
@@ -33,6 +35,7 @@
             </svg>
             <span>+966800128122</span>
         </a>
+    </div>
 
     </div>
 </footer>

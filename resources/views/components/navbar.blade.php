@@ -3,13 +3,13 @@
         <ul
             :class="mobileMenuActive ? 'rtl:!right-0 !left-0' : ''"
             class="absolute -left-full rtl:left-auto rtl:-right-full sm:static bottom-0 h-screen sm:h-auto top-0 w-full sm:w-auto gap-4 bg-primary sm:bg-transparent sm:pt-0 pt-16 text-center text-white transition-all duration-500 flex sm:flex-row flex-col text-2xl sm:text-lg">
-            <li @click="mobileMenuActive = false" class="hover:underline px-2 py-1 bg-white text-primary hover:bg-background"><a href="#">{{ __("Home") }}</a></li>
-            <li @click="mobileMenuActive = false" class="hover:underline px-2 py-1 bg-white text-primary hover:bg-background"><a href="#services">{{ __("Our Services") }}</a></li>
-            {{-- <li @click="mobileMenuActive = false" class="hover:underline px-2 py-1 bg-white text-primary hover:bg-background"><a href="#ksa-vision">{{ __("Kingdom Vision") }}</a></li> --}}
-            <li @click="mobileMenuActive = false" class="hover:underline px-2 py-1 bg-white text-primary hover:bg-background"><a href="#message">{{ __("Our Message") }}</a></li>
-            <li @click="mobileMenuActive = false" class="hover:underline px-2 py-1 bg-white text-primary hover:bg-background"><a href="#achievements">{{ __("Our Achievements") }}</a></li>
+            <li @click="mobileMenuActive = false" class="rounded-md px-4 py-1 bg-white text-primary hover:bg-background"><a href="#">{{ __("Home") }}</a></li>
+            <li @click="mobileMenuActive = false" class="rounded-md px-4 py-1 bg-white text-primary hover:bg-background"><a href="#services">{{ __("Our Services") }}</a></li>
+            {{-- <li @click="mobileMenuActive = false" class="rounded-md px-4 py-1 bg-white text-primary hover:bg-background"><a href="#ksa-vision">{{ __("Kingdom Vision") }}</a></li> --}}
+            <li @click="mobileMenuActive = false" class="rounded-md px-4 py-1 bg-white text-primary hover:bg-background"><a href="#message">{{ __("Our Message") }}</a></li>
+            <li @click="mobileMenuActive = false" class="rounded-md px-4 py-1 bg-white text-primary hover:bg-background"><a href="#achievements">{{ __("Our Achievements") }}</a></li>
         </ul>
-        <x-contact-us-button @click="mobileMenuActive = false"  class="bg-white text-primary absolute rtl:left-4 rtl:right-auto right-4 z-20" />
+        <x-contact-us-button @click="mobileMenuActive = false"  class="bg-white !text-primary absolute rtl:left-4 rtl:right-auto right-4 z-20" />
 
         {{-- Mobile Menu --}}
         <span @click="mobileMenuActive = !mobileMenuActive;" class="mx-6 block cursor-pointer sm:hidden z-[60]">
