@@ -7,7 +7,7 @@
 
             <div dir="ltr" class="space-y-2">
                 <div>+966 59 072 7730 </div>
-                <div>+966 57 888 8811 </div>
+                <div>+966 59 888 8811 </div>
                 <div>+966 57 666 6611 </div>
             </div>
             <div class="space-y-2">
@@ -20,7 +20,7 @@
                     </svg>
                     <span>info@flow-ltd.sa</span>
                 </a>
-                <a href="https://wa.me/+966800128122"
+                <a href="tel:+966800128122"
                     class="group flex items-center justify-center gap-2 sm:gap-4 fill-white transition duration-300 hover:fill-primary">
                     <svg class="stroke-white group-hover:stroke-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="35" height="35" viewBox="0 0 50 50">
