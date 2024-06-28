@@ -19,7 +19,7 @@
         rel="stylesheet">
 </head>
 
-<body class="min-h-screen bg-background font-rubik overflow-x-clip">
+<body class="min-h-screen bg-[url('/assets/images/background.jpg')] font-rubik overflow-x-clip">
     <x-navbar />
     <main class="mx-auto max-w-5xl px-4">
             {{ $slot }}
