@@ -19,7 +19,8 @@
         rel="stylesheet">
 </head>
 
-<body class="min-h-screen bg-[url('/assets/images/background.jpg')] font-rubik overflow-x-clip">
+<body class="min-h-screen bg-black font-rubik overflow-x-clip">
+    <div class="fixed inset-0 -z-10 bg-[url('/assets/images/background.jpg')] opacity-50"></div>
     <x-navbar />
     <main class="mx-auto max-w-5xl px-4">
             {{ $slot }}
