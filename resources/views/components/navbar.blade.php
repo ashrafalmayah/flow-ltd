@@ -5,9 +5,9 @@
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
                     class="block px-4 py-3 sm:py-1" href="#">{{ __('Home') }}</a></li>
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 sm:py-1" href="#services">{{ __('Our Services') }}</a></li>
-            <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
                     class="block px-4 py-3 sm:py-1" href="#message">{{ __('Our Message') }}</a></li>
+            <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
+                    class="block px-4 py-3 sm:py-1" href="#services">{{ __('Our Services') }}</a></li>
             <li @click="mobileMenuActive = false" class="sm:rounded-md bg-white text-primary hover:bg-background"><a
                     class="block px-4 py-3 sm:py-1" href="#achievements">{{ __('Our Achievements') }}</a></li>
         </ul>
