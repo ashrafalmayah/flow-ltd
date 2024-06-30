@@ -8,7 +8,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                rubik: ['"Rubik"'],
+                rubik: ['"Rubik"', 'sans-serif'],
             },
             colors: {
                 background: "#F4F0ED",
