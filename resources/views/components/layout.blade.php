@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
-    <link rel="shortcut icon" href="{{ asset('favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('favicon/favicon.ico') }}">
     <link href="https://flow-ltd.net/" rel="canonical" />
     <title>{{ __("Flow LTD for Business and Support Services") }}</title>
     <meta name="description" content="{{ __("Flow Ltd is a Saudi company providing professional support services, including maintenance, cleaning, and operations. Offering integrated and sustainable solutions for local and regional companies. Contact us to learn more about our services and achievements.") }}">
