@@ -11,7 +11,7 @@
                 <div>+966 59 072 7730 </div>
             </div>
             <div class="space-y-2">
-                <a href="mailto:customer_care@flow-ltd.sa"
+                <a href="mailto:info@flow-ltd.sa"
                     class="group flex items-center justify-center sm:justify-start gap-2 sm:gap-4 fill-white transition duration-300 hover:fill-primary">
                     <svg class="stroke-white group-hover:stroke-[1rem]" width="40" height="35"
                         viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
