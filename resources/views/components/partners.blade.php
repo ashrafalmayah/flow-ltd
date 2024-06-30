@@ -1,4 +1,4 @@
-<section>
+<section class="my-8">
     <h2 class="text-center text-5xl">{{ __('Our Partners') }}</h2>
     <div dir="ltr" x-data="{}" x-init="$nextTick(() => {
         let ul = $refs.logos;

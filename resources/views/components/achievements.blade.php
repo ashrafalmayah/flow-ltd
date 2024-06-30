@@ -1,4 +1,4 @@
-<section id="achievements" class="scroll-mt-24 py-8">
+<section id="achievements" class="scroll-mt-24 py-16">
     <h2 class="text-center text-5xl">{{ __('Some of Our Achievements') }}</h2>
     <div class="mt-8 grid gap-4 text-center sm:grid-cols-3">
         <x-achievement-card src="{{ asset('assets/images/achievements/leap-icon.jpg') }}"
