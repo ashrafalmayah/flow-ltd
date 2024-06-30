@@ -10,27 +10,27 @@
     class="inline-flex select-none my-8 w-full flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
 
     <ul x-ref="logos"
-        class="flex animate-infinite-scroll items-stretch justify-center md:justify-start [&_img]:h-32 md:[&_img]:h-40 [&_img]:max-w-none [&_li]:mx-8">
+        class="flex animate-infinite-scroll items-stretch justify-center md:justify-start [&_img]:h-40 [&_img]:max-w-none [&_li]:mx-8">
         <li>
-            <img src="{{ asset('assets/images/partners/كارفور.png') }}" alt="Carrefour" />
+            <img src="{{ asset('assets/images/partners/كارفور.png') }}" width="160" height="160" alt="Carrefour" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/العثيم.png') }}" alt="Othaim" />
+            <img src="{{ asset('assets/images/partners/العثيم.png') }}" width="160" height="160" alt="Othaim" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/وقت اللياقة.png') }}" alt="Fitness Time" />
+            <img src="{{ asset('assets/images/partners/وقت اللياقة.png') }}" width="160" height="160" alt="Fitness Time" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/زاد.png') }}" alt="Noon" />
+            <img src="{{ asset('assets/images/partners/زاد.png') }}" width="160" height="160" alt="Noon" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/باوزير.png') }}" alt="Bawazir" />
+            <img src="{{ asset('assets/images/partners/باوزير.png') }}" width="160" height="160" alt="Bawazir" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/الدخيل.png') }}" alt="Aldakheel" />
+            <img src="{{ asset('assets/images/partners/الدخيل.png') }}" width="160" height="160" alt="Aldakheel" />
         </li>
         <li>
-            <img src="{{ asset('assets/images/partners/ثابت.png') }}" alt="Thabit" />
+            <img src="{{ asset('assets/images/partners/ثابت.png') }}" width="160" height="160" alt="Thabit" />
         </li>
     </ul>
     </div>
