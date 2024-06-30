@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Rubik';
+    src: url('/resources/fonts/Rubik/Rubik-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .break-out{
     @apply  mx-[-50vw] left-1/2 right-1/2 max-w-[100vw] w-screen ;
 }
