@@ -9,6 +9,7 @@ export default {
         extend: {
             fontFamily: {
                 rubik: ['"Rubik"', 'sans-serif'],
+                "abd-elrady-pro": ['"Abd-ElRady-Pro"', 'sans-serif'],
             },
             colors: {
                 background: "#F4F0ED",
