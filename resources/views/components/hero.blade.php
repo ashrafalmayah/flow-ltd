@@ -1,5 +1,5 @@
 <section class="relative grid items-center justify-items-center gap-4 p-8 py-36 text-center text-white">
-    <div class="w-full absolute bottom-0 top-0 -z-10 overflow-hidden">
+    <div class="break-out absolute bottom-0 top-0 -z-10 overflow-hidden">
         <img class="h-full w-full object-cover object-bottom brightness-[30%]" alt="{{ __("Flow LTD for Business and Support Services") }}" src="{{ asset('assets/images/background.jpg') }}" />
     </div>
 
