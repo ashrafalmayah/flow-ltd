@@ -5,6 +5,12 @@
 
     RewriteEngine On
 
+    # Ensure /blog redirects to /blog/
+    RewriteRule ^blog$ /blog/ [R=301,L]
+
+    # Redirect /blog to the WordPress index.php
+    RewriteRule ^blog/?$ blog/index.php [L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]

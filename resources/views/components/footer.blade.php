@@ -6,7 +6,7 @@
         <div class="grid sm:grid-cols-2 gap-2">
 
             <div dir="ltr" class="space-y-2">
-                <div>+966 59 888 8811 </div>
+                <div>+966 57 888 8811 </div>
                 <div>+966 57 666 6611 </div>
                 <div>+966 59 072 7730 </div>
             </div>

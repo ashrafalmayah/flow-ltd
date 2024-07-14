@@ -1,0 +1,1362 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 12:29:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.2.14                                |8.3.2
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.3.2 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+REQUEST URL_________: "https://flow-ltd.net/public/blog"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[dbname]
+PARAM SET KEY[dbuser]
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://blog.reayt.com/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+URL_NEW_____________: "https://flow-ltd.net/public/blog"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/20240712_d985d8afd988d986d8a9d8b1d8b9d8_[HASH]_20240712120441_archive.daf"
+ARCHIVE SIZE________: 120.25MB
+CREATED_____________: 2024-07-12 12:04:41
+WP VERSION__________: 6.5.5
+DUP VERSION_________: 1.5.10
+LICENSE_____________: Free version
+DB VERSION__________: 10.6.18
+DB FILE SIZE________: 11.59MB
+DB TABLES___________: 54
+DB ROWS_____________: 2626
+URL HOME____________: https://blog.reayt.com
+URL CORE____________: https://blog.reayt.com
+URL CONTENT_________: https://blog.reayt.com/wp-content
+URL UPLOAD__________: https://blog.reayt.com/wp-content/uploads
+URL PLUGINS_________: https://blog.reayt.com/wp-content/plugins
+URL MU PLUGINS______: https://blog.reayt.com/wp-content/mu-plugins
+URL THEMES__________: https://blog.reayt.com/wp-content/themes
+PATH HOME___________: /var/www/reayt.com/html/blog
+PATH ABS____________: /var/www/reayt.com/html/blog
+PATH WPCONFIG_______: /var/www/reayt.com/html/blog
+PATH WPCONTENT______: /var/www/reayt.com/html/blog/wp-content
+PATH UPLOADS________: /var/www/reayt.com/html/blog/wp-content/uploads
+PATH PLUGINS________: /var/www/reayt.com/html/blog/wp-content/plugins
+PATH MUPLUGINS______: /var/www/reayt.com/html/blog/wp-content/mu-plugins
+PATH THEMES_________: /var/www/reayt.com/html/blog/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "blog.reayt.com/"
+
+PLUGINS
+PLUGIN [SLUG:alx-extensions/alx-extensions.php                 ][ON:true ]  Alx Extensions
+PLUGIN [SLUG:child-theme-configurator/child-theme-configurator.php][ON:true ]  Child Theme Configurator
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:easy-table-of-contents/easy-table-of-contents.php ][ON:true ]  Easy Table of Contents
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:jetpack/jetpack.php                               ][ON:false]  Jetpack
+PLUGIN [SLUG:meta-box/meta-box.php                             ][ON:true ]  Meta Box
+PLUGIN [SLUG:polylang/polylang.php                             ][ON:true ]  Polylang
+PLUGIN [SLUG:pro-elements/pro-elements.php                     ][ON:true ]  PRO Elements
+PLUGIN [SLUG:seo-by-rank-math/rank-math.php                    ][ON:true ]  Rank Math SEO
+PLUGIN [SLUG:regenerate-thumbnails/regenerate-thumbnails.php   ][ON:true ]  Regenerate Thumbnails
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:true ]  UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:wordfence/wordfence.php                           ][ON:true ]  Wordfence Security
+PLUGIN [SLUG:wp-optimize/wp-optimize.php                       ][ON:true ]  WP-Optimize - Clean, Compress, Cache
+PLUGIN [SLUG:wp-pagenavi/wp-pagenavi.php                       ][ON:true ]  WP-PageNavi
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false]  advanced-cache.php
+
+********************************************************************************
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   2.74828]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "settpm"
+NEW TEMPLATE:default
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   2.75506]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+DATABASE CONNECTION EXCEPTION ERROR: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+
+INSTALLER ERROR:
+Unable to connect with the following parameters:
+HOST: "localhost"
+DBUSER: "u338675586_flow_ltd"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+
+
+DATABASE CHECK CHARSET EXCEPTION:  Unable to connect with the following parameters:<br/>HOST: "localhost"
+DBUSER: "u338675586_flow_ltd"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+	FILE:/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Utils/Log/Log.php[401]
+	TRACE:
+#0 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/database/class.db.functions.php(134): Duplicator\Installer\Utils\Log\Log::error()
+#1 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.database.service.php(71): DUPX_DB_Functions->dbConnection()
+#2 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.database.service.php(725): DUPX_Validation_database_service->getDbConnection()
+#3 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.params.php(274): DUPX_Validation_database_service->caseSensitiveTablesValue()
+#4 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.params.php(147): DUPX_Ctrl_Params::setParamsDatabase()
+#5 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php(183): DUPX_Ctrl_Params::setParamsStep1()
+#6 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions()
+#7 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#8 {main}
+
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   2.73097]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+--------------------------------------
+LOG-TIME[DELTA:   0.02805]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01347]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01232]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+DATABASE CONNECTION EXCEPTION ERROR: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+
+INSTALLER ERROR:
+Unable to connect with the following parameters:
+HOST: "localhost"
+DBUSER: "u338675586_flow_ltd"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+
+
+      TEST "Host Connection" EXCEPTION: Unable to connect with the following parameters:<br/>HOST: "localhost"
+DBUSER: "u338675586_flow_ltd"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'u338675586_flow_ltd'@'localhost' (using password: NO)
+	FILE:/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Utils/Log/Log.php[401]
+	TRACE:
+#0 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/database/class.db.functions.php(134): Duplicator\Installer\Utils\Log\Log::error()
+#1 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.database.service.php(71): DUPX_DB_Functions->dbConnection()
+#2 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/database-tests/class.validation.test.db.connection.php(26): DUPX_Validation_database_service->getDbConnection()
+#3 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.abstract.item.php(46): DUPX_Validation_test_db_connection->runTest()
+#4 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.manager.php(232): DUPX_Validation_abstract_item->test()
+#5 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.manager.php(205): DUPX_Validation_manager->runTests()
+#6 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php(173): DUPX_Validation_manager->getValidateData()
+#7 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions()
+#8 /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#9 {main}
+
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Host Connection" RESULT: failed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Version" RESULT: skip
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Engine Support" RESULT: skip
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database GTID Mode" RESULT: skip
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Visibility" RESULT: skip
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   2.71392]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+--------------------------------------
+LOG-TIME[DELTA:   0.01337]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01469]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01311]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00148]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00077]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'u338675586_flow_ltd'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'u338675586_flow_ltd' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.database.service.php[763]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/main.installer.php[60]
+
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02586]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00126]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00057]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 12:33:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "مدونة رعاية"
+HOME URL NEW________: "https://flow-ltd.net/blog"
+SITE URL NEW________: "https://flow-ltd.net/public/blog"
+CONTENT URL NEW_____: "https://flow-ltd.net/public/blog/wp-content"
+UPLOAD URL NEW______: "https://flow-ltd.net/public/blog/wp-content/uploads"
+PLUGINS URL NEW_____: "https://flow-ltd.net/public/blog/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+SITE PATH NEW_______: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+CONTENT PATH NEW____: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content"
+UPLOAD PATH NEW_____: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer"
+	FILE: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/20240712_d985d8afd988d986d8a9d8b1d8b9d8_[HASH]_20240712120441_installer-backup.php"
+	FILE: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/20240712_d985d8afd988d986d8a9d8b1d8b9d8_[HASH]_20240712120441_archive.daf"
+	FILE: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/installer.php"
+	FILE: "/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer-bootlog__a8bce7c-12120441.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240712_d985d8afd988d986d8a9d8b1d8b9d8_[HASH]_20240712120441_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 12:33:47 - RUNTIME: 3.8755 sec. - Files processed: 17,251 of 17,251
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.01302]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 12:33:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:      35] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_notes"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_notes]
+TABLE "wp_e_notes_users_relations"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_notes_users_relations]
+TABLE "wp_e_submissions"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     369] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:     489] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     219] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_404_logs]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:      64] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_links]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_meta]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections_cache]
+TABLE "wp_termmeta"_____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:     133] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_tm_taskmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_tm_taskmeta]
+TABLE "wp_tm_tasks"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_tm_tasks]
+TABLE "wp_usermeta"_____________________________________[ROWS:      77] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblockediplog]
+TABLE "wp_wfblocks7"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblocks7]
+TABLE "wp_wfconfig"_____________________________________[ROWS:     231] [EXTRACT|REPLACE] [INST NAME: wp_wfconfig]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_wfcrawlers]
+TABLE "wp_wffilechanges"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilechanges]
+TABLE "wp_wffilemods"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilemods]
+TABLE "wp_wfhits"_______________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_wfhits]
+TABLE "wp_wfhoover"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhoover]
+TABLE "wp_wfissues"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfissues]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfknownfilelist]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflivetraffichuman]
+TABLE "wp_wflocs"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflocs]
+TABLE "wp_wflogins"_____________________________________[ROWS:     943] [EXTRACT|REPLACE] [INST NAME: wp_wflogins]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_2fa_secrets]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_role_counts]
+TABLE "wp_wfls_settings"________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wp_wfls_settings]
+TABLE "wp_wfnotifications"______________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_wfnotifications]
+TABLE "wp_wfpendingissues"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfpendingissues]
+TABLE "wp_wfreversecache"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfreversecache]
+TABLE "wp_wfsecurityevents"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsecurityevents]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsnipcache]
+TABLE "wp_wfstatus"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfstatus]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wftrafficrates]
+TABLE "wp_wfwaffailures"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfwaffailures]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.11.8 -- Build Server: 10.6.18
+FILE SIZE:	dup-database__[HASH].sql (7.05MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_commentmeta
+DROP TABLE wp_comments
+DROP TABLE wp_duplicator_packages
+DROP TABLE wp_links
+DROP TABLE wp_options
+DROP TABLE wp_postmeta
+DROP TABLE wp_posts
+DROP TABLE wp_term_relationships
+DROP TABLE wp_term_taxonomy
+DROP TABLE wp_termmeta
+DROP TABLE wp_terms
+DROP TABLE wp_usermeta
+DROP TABLE wp_users
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`u338675586_flow_ltd`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	473
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     3]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     1]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     9]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:    35]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:    10]
+TABLE "wp_e_notes"______________________________________[ROWS:     0]
+TABLE "wp_e_notes_users_relations"______________________[ROWS:     0]
+TABLE "wp_e_submissions"________________________________[ROWS:     0]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     0]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   369]
+TABLE "wp_postmeta"_____________________________________[ROWS:   489]
+TABLE "wp_posts"________________________________________[ROWS:   219]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:     3]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:    64]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:    29]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:     0]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   133]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    34]
+TABLE "wp_termmeta"_____________________________________[ROWS:     2]
+TABLE "wp_terms"________________________________________[ROWS:    34]
+TABLE "wp_tm_taskmeta"__________________________________[ROWS:     0]
+TABLE "wp_tm_tasks"_____________________________________[ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[ROWS:    77]
+TABLE "wp_users"________________________________________[ROWS:     2]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:     0]
+TABLE "wp_wfblocks7"____________________________________[ROWS:     0]
+TABLE "wp_wfconfig"_____________________________________[ROWS:   231]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:     7]
+TABLE "wp_wffilechanges"________________________________[ROWS:     0]
+TABLE "wp_wffilemods"___________________________________[ROWS:     0]
+TABLE "wp_wfhits"_______________________________________[ROWS:     8]
+TABLE "wp_wfhoover"_____________________________________[ROWS:     0]
+TABLE "wp_wfissues"_____________________________________[ROWS:     0]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:     0]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:     0]
+TABLE "wp_wflocs"_______________________________________[ROWS:     0]
+TABLE "wp_wflogins"_____________________________________[ROWS:   943]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:     0]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:     0]
+TABLE "wp_wfls_settings"________________________________[ROWS:    30]
+TABLE "wp_wfnotifications"______________________________[ROWS:     5]
+TABLE "wp_wfpendingissues"______________________________[ROWS:     0]
+TABLE "wp_wfreversecache"_______________________________[ROWS:     0]
+TABLE "wp_wfsecurityevents"_____________________________[ROWS:     0]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:     0]
+TABLE "wp_wfstatus"_____________________________________[ROWS:     0]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:     0]
+TABLE "wp_wfwaffailures"________________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 0.8555 sec.
+STEP-2 COMPLETE @ 12:33:56 - RUNTIME: 0.8555 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.01192]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/reayt.com/html/blog REPLACE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: https://blog.reayt.com/wp-content/uploads REPLACE: https://flow-ltd.net/public/blog/wp-content/uploads [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://blog.reayt.com REPLACE: https://flow-ltd.net/public/blog [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://blog.reayt.com REPLACE: https://flow-ltd.net/blog [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: https://blog.reayt.com/wp-content/plugins REPLACE: https://flow-ltd.net/public/blog/wp-content/plugins [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: https://blog.reayt.com/wp-content/mu-plugins REPLACE: https://flow-ltd.net/public/blog/wp-content/mu-plugins [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:11] SEARCH: https://blog.reayt.com/wp-content REPLACE: https://flow-ltd.net/public/blog/wp-content [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 12:35:15
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    39]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_e_notes"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_notes_users_relations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   330][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   489][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   219][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_404_logs][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:    64][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_internal_links][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:    29][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   133][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_tm_taskmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_tm_tasks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   231][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfconfig][0]
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfcrawlers][0]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfhits][0]
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:   943][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wflogins][0]
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_role_counts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfls_settings][0]
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://blog.reayt.com/wp-content/uploads" =======> "https://flow-ltd.net/public/blog/wp-content/uploads"
+	SEARCH[urlnd]  2:"https://blog.reayt.com/wp-content/plugins" =======> "https://flow-ltd.net/public/blog/wp-content/plugins"
+	SEARCH[urlnd]  3:"https://blog.reayt.com/wp-content/mu-plugins" ====> "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	SEARCH[urlnd]  4:"https://blog.reayt.com/wp-content" ===============> "https://flow-ltd.net/public/blog/wp-content"
+	SEARCH[path ]  5:"/var/www/reayt.com/html/blog" ====================> "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+	SEARCH[urlnd]  6:"https://blog.reayt.com" ==========================> "https://flow-ltd.net/public/blog"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfnotifications][0]
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsecurityevents"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfwaffailures"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:54 	|	 Rows:2536 	|	 Cells:19431 
+UPDATED:	Tables:9 	|	 Rows:316 	|	 Cells:437 
+ERRORS:		0 
+RUNTIME:	0.493500 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-config.php
+New htaccess file created:/home/u338675586/domains/flow-ltd.net/public_html/public/blog/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "https://flow-ltd.net/public/blog"
+	UPDATE WP_CONTENT_URL "https://flow-ltd.net/public/blog/wp-content"
+	UPDATE WP_PLUGIN_URL "https://flow-ltd.net/public/blog/wp-content/plugins"
+	UPDATE WPMU_PLUGIN_URL "https://flow-ltd.net/public/blog/wp-content/mu-plugins"
+	UPDATE DB_NAME ""u338675586_wp_flow_ltd""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'flow-ltd' was created successfully allong with MU usermeta.
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/u338675586/domains/flow-ltd.net/public_html/public/blog"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:35:16 - RUNTIME: 0.6179 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Duplicator has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate Duplicator after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/index.php
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/theme-options.php[574]
+	FUNCTION: include                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions.php[24]
+	FUNCTION: shapebox_load                 FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-settings.php[673]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-config.php[85]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/index.php[17]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/wp_test_script_a8bce7c-12120441.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/plugins/alx-extensions/inc/options.php[80]
+	FUNCTION: alx_ext_custom_options        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-settings.php[673]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-config.php[85]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/index.php[17]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/wp_test_script_a8bce7c-12120441.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-login.php
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/theme-options.php[574]
+	FUNCTION: include                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions.php[24]
+	FUNCTION: shapebox_load                 FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-settings.php[673]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-config.php[85]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/wp_test_script_a8bce7c-12120441.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/themes/shapebox/functions/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/plugins/alx-extensions/inc/options.php[80]
+	FUNCTION: alx_ext_custom_options        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-settings.php[673]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-config.php[85]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/u338675586/domains/flow-ltd.net/public_html/public/blog/wp-content/wp_test_script_a8bce7c-12120441.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/home/u338675586/domains/flow-ltd.net/public_html/public/blog/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.01073]  MESSAGE:END RENDER PAGE
