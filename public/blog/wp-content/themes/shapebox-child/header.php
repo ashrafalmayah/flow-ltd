@@ -1,7 +1,17 @@
 <!DOCTYPE html> 
-<html class="no-js scroll-smooth" <?php language_attributes(); ?>>
+<html x-data="{ mobileMenuActive: false }" :class="mobileMenuActive ? 'overflow-hidden' : ''" class="no-js scroll-smooth" <?php language_attributes(); ?>>
 
 <head>
+	<!-- Google analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LGWT7EGTZP"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-LGWT7EGTZP');
+	</script>
+
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>

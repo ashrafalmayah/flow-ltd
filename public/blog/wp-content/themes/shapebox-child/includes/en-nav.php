@@ -3,15 +3,15 @@
         <ul :class="mobileMenuActive ? 'rtl:!right-0 !left-0' : ''"
             class="absolute -left-full rtl:left-auto rtl:-right-full md:static bottom-0 h-screen md:h-auto top-0 w-full md:w-auto gap-1 md:gap-4 bg-primary md:bg-transparent md:pt-0 pt-16 text-center text-white transition-all duration-500 flex md:flex-row flex-col text-2xl md:text-lg">
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 md:py-1" href="/#">Home</a></li>
+                    class="block px-4 py-3 md:py-1" href="/en/#">Home</a></li>
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 md:py-1" href="/#message">Our Message</a></li>
+                    class="block px-4 py-3 md:py-1" href="/en/#message">Our Message</a></li>
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 md:py-1" href="/#services">Our Services</a></li>
+                    class="block px-4 py-3 md:py-1" href="/en/#services">Our Services</a></li>
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 md:py-1" href="/#achievements">Our Achievements</a></li>
+                    class="block px-4 py-3 md:py-1" href="/en/#achievements">Our Achievements</a></li>
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
-                    class="block px-4 py-3 md:py-1" href="/blog">Blog</a></li>
+                    class="block px-4 py-3 md:py-1" href="/blog/">Blog</a></li>
         </ul>
 		<a href="#contact-us" class="rounded-lg px-8 py-2 bg-white hover:bg-background text-primary absolute rtl:left-4 rtl:right-auto right-4 z-20">Contact Us</a>
 

@@ -10,6 +10,8 @@
                     class="block px-4 py-3 md:py-1" href="#services">{{ __('Our Services') }}</a></li>
             <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
                     class="block px-4 py-3 md:py-1" href="#achievements">{{ __('Our Achievements') }}</a></li>
+            <li @click="mobileMenuActive = false" class="md:rounded-md bg-white text-primary hover:bg-background"><a
+                    class="block px-4 py-3 md:py-1" href="{{ __('/blog/en') }}">{{ __('Blog') }}</a></li>
         </ul>
         <x-contact-us-button @click="mobileMenuActive = false"
             class="bg-white !text-primary absolute rtl:left-4 rtl:right-auto right-4 z-20" />
