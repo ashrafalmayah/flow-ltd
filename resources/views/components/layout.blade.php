@@ -3,15 +3,15 @@
     lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : '' }}">
 
 <head>
-    {{-- Google analytics --}}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGWT7EGTZP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-LGWT7EGTZP');
-    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2LFN6LTYP4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2LFN6LTYP4');
+</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +36,6 @@
     <main class="mx-auto max-w-5xl px-4">
         {{ $slot }}
     </main>
-    <x-whatsapp-icon />
     <x-footer />
 </body>
 

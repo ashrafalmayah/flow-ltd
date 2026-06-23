@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @font-face {
+    font-family: 'IBMPlex';
+    src: url('/resources/fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlex';
+    src: url('/resources/fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Rubik';
     src: url('/resources/fonts/Rubik/Rubik-Regular.ttf');
     font-weight: normal;

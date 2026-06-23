@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+sitemap: https://flow-ltd.net/sitemap928.xml
+sitemap: https://flow-ltd.net/sitemap344.xml
+sitemap: https://flow-ltd.net/sitemap755.xml
+sitemap: https://flow-ltd.net/sitemap175.xml
+sitemap: https://flow-ltd.net/sitemap875.xml

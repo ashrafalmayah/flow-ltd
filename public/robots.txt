@@ -1,2 +1,4 @@
+sitemap: https://flow-ltd.net/blog/sitemap_index.xml
+
 User-agent: *
-Disallow:
+Disallow: /blog/wp-admin/
