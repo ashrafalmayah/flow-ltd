@@ -33,3 +33,150 @@
 .break-out{
     @apply  mx-[-50vw] left-1/2 right-1/2 max-w-[100vw] w-screen ;
 }
+
+/* Premium Animations */
+
+/* Shimmer wave for buttons */
+.shimmer-btn {
+    position: relative;
+    overflow: hidden;
+}
+.shimmer-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-20deg);
+    animation: shimmer-sweep 6s infinite ease-in-out;
+    pointer-events: none;
+}
+.shimmer-btn-dark::after {
+    background: linear-gradient(
+        90deg,
+        rgba(27, 58, 107, 0) 0%,
+        rgba(27, 58, 107, 0.15) 50%,
+        rgba(27, 58, 107, 0) 100%
+    );
+}
+
+@keyframes shimmer-sweep {
+    0% { left: -150%; }
+    25% { left: 150%; }
+    100% { left: 150%; }
+}
+
+/* Gear rotations */
+.animate-gear-cw {
+    animation: spin-cw 8s linear infinite;
+    transform-origin: center;
+}
+.animate-gear-ccw {
+    animation: spin-ccw 12s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes spin-cw {
+    to { transform: rotate(360deg); }
+}
+@keyframes spin-ccw {
+    to { transform: rotate(-360deg); }
+}
+
+/* Drone rotors spin */
+.animate-rotor {
+    animation: rotor-spin 0.6s linear infinite;
+    transform-origin: center;
+}
+@keyframes rotor-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Drone body float */
+.animate-float-drone {
+    animation: float-drone 3s ease-in-out infinite;
+}
+@keyframes float-drone {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-6px) rotate(2deg); }
+}
+
+/* Compass wiggle */
+.animate-compass-needle {
+    animation: compass-wiggle 3s ease-in-out infinite;
+    transform-origin: center;
+}
+@keyframes compass-wiggle {
+    0%, 100% { transform: rotate(-5deg); }
+    50% { transform: rotate(25deg); }
+}
+
+/* Sparkle shine pulse */
+.animate-sparkle-pulse {
+    animation: sparkle-pulse 2.5s ease-in-out infinite;
+}
+@keyframes sparkle-pulse {
+    0%, 100% { opacity: 0.4; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.15) rotate(10deg); }
+}
+
+/* Crystalline turning floating gem */
+.animate-crystalline {
+    animation: crystalline-float 5s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+@keyframes crystalline-float {
+    0%, 100% { transform: perspective(1000px) translateY(0px) rotateY(0deg) rotateX(0deg); }
+    50% { transform: perspective(1000px) translateY(-8px) rotateY(12deg) rotateX(6deg); }
+}
+
+/* Digital pattern flow line keyframes */
+.kufic-flow-line {
+    stroke-dasharray: 40 80;
+    animation: kufic-dash-flow 15s linear infinite;
+}
+.kufic-flow-line-rev {
+    stroke-dasharray: 30 90;
+    animation: kufic-dash-flow-rev 20s linear infinite;
+}
+.kufic-flow-rect {
+    stroke-dasharray: 40 80;
+    animation: kufic-dash-flow 25s linear infinite;
+}
+
+@keyframes kufic-dash-flow {
+    to { stroke-dashoffset: -120; }
+}
+@keyframes kufic-dash-flow-rev {
+    to { stroke-dashoffset: 120; }
+}
+
+/* Symmetric 3D Carousel fade to fog / behind */
+@keyframes carousel-fade {
+    0%, 100% {
+        filter: grayscale(0) opacity(1) drop-shadow(0 8px 16px rgba(27,58,107,0.12));
+        transform: scale(1.1);
+    }
+    15%, 85% {
+        filter: grayscale(0.15) opacity(0.85);
+        transform: scale(1.0);
+    }
+    30%, 70% {
+        filter: grayscale(0.8) opacity(0.15);
+        transform: scale(0.85);
+    }
+    40%, 60% {
+        filter: grayscale(1) opacity(0);
+        transform: scale(0.7);
+        visibility: hidden;
+    }
+}
+
+

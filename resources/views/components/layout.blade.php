@@ -25,15 +25,14 @@
         content="{{ __('Flow Ltd is a Saudi company providing professional support services, including maintenance, cleaning, and operations. Offering integrated and sustainable solutions for local and regional companies. Contact us to learn more about our services and achievements.') }}">
 
     {{-- fonts --}}
-    {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet"> --}}
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 </head>
 
-<body class="min-h-screen overflow-x-clip bg-background font-rubik">
+<body class="min-h-screen overflow-x-clip bg-background font-cairo">
     <x-navbar />
-    <main class="mx-auto max-w-5xl px-4">
+    <main class="w-full">
         {{ $slot }}
     </main>
     <x-footer />
