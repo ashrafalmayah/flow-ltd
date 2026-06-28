@@ -36,6 +36,9 @@
 					colors: {
 						background: "#F4F0ED",
 						primary: "#0F3960",
+						navy: "#1B3A6B",
+						steel: "#8A9BAD",
+						"navy-dark": "#0E2248",
 					},
 				},
 			},

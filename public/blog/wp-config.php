@@ -22,9 +22,9 @@ define( 'WP_CACHE', true ); // WP-Optimize Cache
 /** The name of the database for WordPress */
 define( 'DB_NAME', "u338675586_wp_flow_ltd" );
 /** Database username */
-define( 'DB_USER', "u338675586_flow_ltd" );
+define( 'DB_USER', "root" );
 /** Database password */
-define( 'DB_PASSWORD', "Flow-ltd1234" );
+define( 'DB_PASSWORD', "" );
 /** Database hostname */
 define( 'DB_HOST', "localhost" );
 /** Database charset to use in creating database tables. */
@@ -70,12 +70,15 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_DISPLAY', true );
+@ini_set( 'display_errors', 1 );
+
 /* Add any custom values between this line and the "stop editing" line. */
-define( 'WP_SITEURL', 'https://flow-ltd.net/public/blog' );
-define( 'WP_CONTENT_URL', 'https://flow-ltd.net/public/blog/wp-content' );
-define( 'WP_PLUGIN_URL', 'https://flow-ltd.net/public/blog/wp-content/plugins' );
-define( 'WPMU_PLUGIN_URL', 'https://flow-ltd.net/public/blog/wp-content/mu-plugins' );
+define( 'WP_SITEURL', 'https://flow-ltd.test/public/blog' );
+define( 'WP_CONTENT_URL', 'https://flow-ltd.test/public/blog/wp-content' );
+define( 'WP_PLUGIN_URL', 'https://flow-ltd.test/public/blog/wp-content/plugins' );
+define( 'WPMU_PLUGIN_URL', 'https://flow-ltd.test/public/blog/wp-content/mu-plugins' );
 /* That's all, stop editing! Happy publishing. */
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
