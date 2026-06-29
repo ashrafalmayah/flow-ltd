@@ -1,0 +1,69 @@
+name: Deploy Laravel App
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install SSH Private Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p ${{ secrets.SSH_PORT || 22 }} -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Execute Deploy Commands on Host via SSH
+        run: |
+          ssh -p ${{ secrets.SSH_PORT || 22 }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} << 'EOF'
+            # Exit immediately if a command exits with a non-zero status
+            set -e
+
+            # Navigate to the project directory (supports absolute or relative path)
+            if [ -d "${{ secrets.SERVER_DIR }}" ]; then
+              cd "${{ secrets.SERVER_DIR }}"
+            else
+              cd ~/"${{ secrets.SERVER_DIR }}"
+            fi
+
+            echo '=== PULLING LATEST CODE ==='
+            git pull origin main
+
+            echo '=== INSTALLING COMPOSER DEPENDENCIES ==='
+            COMPOSER_CMD="${{ secrets.COMPOSER_BINARY }}"
+            if [ -z "$COMPOSER_CMD" ]; then
+              if [ -f "composer.phar" ]; then
+                COMPOSER_CMD="${{ secrets.PHP_BINARY || 'php' }} composer.phar"
+              else
+                COMPOSER_CMD="composer"
+              fi
+            fi
+            $COMPOSER_CMD install --no-interaction --prefer-dist --optimize-autoloader --no-dev
+
+            echo '=== INSTALLING NPM DEPENDENCIES ==='
+            NPM_CMD="${{ secrets.NPM_BINARY || 'npm' }}"
+            $NPM_CMD install
+
+            echo '=== RUNNING VITE BUILD ==='
+            $NPM_CMD run build
+
+            echo '=== RUNNING MIGRATIONS ==='
+            PHP_CMD="${{ secrets.PHP_BINARY || 'php' }}"
+            $PHP_CMD artisan migrate --force
+
+            echo '=== OPTIMIZING APPLICATION ==='
+            $PHP_CMD artisan config:cache
+            $PHP_CMD artisan route:cache
+            $PHP_CMD artisan view:cache
+            $PHP_CMD artisan event:cache
+
+            echo '=== VERIFYING STORAGE LINK ==='
+            $PHP_CMD artisan storage:link || echo 'Storage link already exists or failed to create.'
+            
+            echo '=== DEPLOYMENT COMPLETE ==='
+          EOF
