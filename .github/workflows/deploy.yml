@@ -54,11 +54,8 @@ jobs:
             echo '=== RUNNING VITE BUILD ==='
             $NPM_CMD run build
 
-            echo '=== RUNNING MIGRATIONS ==='
-            PHP_CMD="${{ secrets.PHP_BINARY || 'php' }}"
-            $PHP_CMD artisan migrate --force
-
             echo '=== OPTIMIZING APPLICATION ==='
+            PHP_CMD="${{ secrets.PHP_BINARY || 'php' }}"
             $PHP_CMD artisan config:cache
             $PHP_CMD artisan route:cache
             $PHP_CMD artisan view:cache
