@@ -25,9 +25,20 @@
 
 @font-face {
     font-family: 'Abd-ElRady-Pro';
-    src: url('/resources/fonts/Abd-ElRady-Pro/Abd-ElRady-Pro.otf');
+    src: url('/resources/fonts/Abd-ElRady-Pro/Abd-ElRady-Pro-Regular.otf');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abd-ElRady-Pro';
+    src: url('/resources/fonts/Abd-ElRady-Pro/Abd-ElRady-Pro.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body::selection {
+    @apply bg-primary text-white;
 }
 
 .break-out{
