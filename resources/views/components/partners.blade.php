@@ -75,10 +75,9 @@
                 <div class="absolute inset-x-0 bottom-0 h-28 sm:h-36 bg-gradient-to-t from-navy-dark from-20% to-transparent z-20 pointer-events-none"></div>
                 
                 <!-- 3 Columns of Vertical Scrolling logos -->
-                <div class="grid grid-cols-3 gap-3 sm:gap-4 h-full relative z-10">
-                    
+                <div class="grid grid-cols-3 p-1 gap-3 sm:gap-4 h-full relative z-10 overflow-hidden">
                     <!-- Column 1: Moves UP -->
-                    <div class="marquee-vertical-wrapper overflow-hidden h-full">
+                    <div class="marquee-vertical-wrapper h-full">
                         <div class="marquee-vertical-track flex flex-col gap-3 sm:gap-4 animate-vertical-up">
                             <div class="flex flex-col gap-3 sm:gap-4 shrink-0">
                                 @foreach ($row1 as $partner)
@@ -104,7 +103,7 @@
                     </div>
 
                     <!-- Column 2: Moves DOWN -->
-                    <div class="marquee-vertical-wrapper overflow-hidden h-full">
+                    <div class="marquee-vertical-wrapper h-full">
                         <div class="marquee-vertical-track flex flex-col gap-3 sm:gap-4 animate-vertical-down">
                             <div class="flex flex-col gap-3 sm:gap-4 shrink-0">
                                 @foreach ($row2 as $partner)
@@ -130,7 +129,7 @@
                     </div>
 
                     <!-- Column 3: Moves UP (Slower) -->
-                    <div class="marquee-vertical-wrapper overflow-hidden h-full">
+                    <div class="marquee-vertical-wrapper h-full">
                         <div class="marquee-vertical-track flex flex-col gap-3 sm:gap-4 animate-vertical-up-slow">
                             <div class="flex flex-col gap-3 sm:gap-4 shrink-0">
                                 @foreach ($row3 as $partner)
