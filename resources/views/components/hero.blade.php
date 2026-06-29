@@ -4,6 +4,9 @@
          style="background-image: url('{{ asset('assets/images/background.png') }}'); background-color: #0E2248;">
     </div>
 
+    <!-- Interactive Mouse Sparkles Canvas -->
+    <canvas id="sparkle-canvas" class="absolute inset-0 pointer-events-none z-[11]"></canvas>
+
     <!-- White Van layer (Drives down the road on scroll: positive Y (down) and left/right X (forward)) -->
     <div id="parallax-van" 
          x-data="{
@@ -121,3 +124,194 @@
         </svg>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const canvas = document.getElementById('sparkle-canvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        const section = document.getElementById('home');
+        if (!section) return;
+
+        let particles = [];
+        let animationFrameId = null;
+        let lastX = null;
+        let lastY = null;
+
+        // Identity Colors: Steel (#8A9BAD), Cream (#F4F0ED), White (#FFFFFF)
+        const colors = [
+            'rgba(138, 155, 173, ', // Steel
+            'rgba(244, 240, 237, ', // Cream/Background
+            'rgba(255, 255, 255, ', // White
+        ];
+
+        // Set up ResizeObserver to handle DPI scaling and layout adjustments
+        const resizeObserver = new ResizeObserver(() => {
+            const rect = section.getBoundingClientRect();
+            canvas.style.width = rect.width + 'px';
+            canvas.style.height = rect.height + 'px';
+            
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            ctx.scale(dpr, dpr);
+        });
+        resizeObserver.observe(section);
+
+        function createParticle(x, y) {
+            const size = Math.random() * 4.5 + 3.5; // size in px (3.5px to 8px)
+            const type = Math.random() > 0.4 ? 'star' : 'circle';
+            const colorIdx = Math.floor(Math.random() * colors.length);
+            const colorBase = colors[colorIdx];
+            
+            // Random direction
+            const angle = Math.random() * Math.PI * 2;
+            const speed = Math.random() * 0.45 + 0.2; // gentle speed
+            
+            return {
+                x: x,
+                y: y,
+                vx: Math.cos(angle) * speed,
+                vy: Math.sin(angle) * speed - 0.08, // gentle upward drift
+                size: size,
+                baseSize: size,
+                colorBase: colorBase,
+                opacity: Math.random() * 0.3 + 0.7, // initial opacity (0.7 to 1.0)
+                fadeRate: Math.random() * 0.015 + 0.015, // lifetime ~30-60 frames
+                rotation: Math.random() * Math.PI * 2,
+                rotSpeed: (Math.random() - 0.5) * 0.03,
+                type: type
+            };
+        }
+
+        // Draw a premium 4-pointed curved star
+        function drawFourPointStar(ctx, cx, cy, size, rotation) {
+            ctx.save();
+            ctx.translate(cx, cy);
+            ctx.rotate(rotation);
+            ctx.beginPath();
+            ctx.moveTo(0, -size);
+            ctx.quadraticCurveTo(0, 0, size, 0);
+            ctx.quadraticCurveTo(0, 0, 0, size);
+            ctx.quadraticCurveTo(0, 0, -size, 0);
+            ctx.quadraticCurveTo(0, 0, 0, -size);
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i];
+                p.x += p.vx;
+                p.y += p.vy;
+                p.opacity -= p.fadeRate;
+                p.rotation += p.rotSpeed;
+                
+                // shrink particle over time
+                p.size = p.baseSize * p.opacity;
+
+                if (p.opacity <= 0 || p.size <= 0) {
+                    particles.splice(i, 1);
+                    continue;
+                }
+
+                ctx.fillStyle = p.colorBase + p.opacity + ')';
+
+                if (p.type === 'star') {
+                    drawFourPointStar(ctx, p.x, p.y, p.size, p.rotation);
+                } else {
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size / 2, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+
+            if (particles.length > 0) {
+                animationFrameId = requestAnimationFrame(animate);
+            } else {
+                animationFrameId = null;
+            }
+        }
+
+        function startAnimation() {
+            if (!animationFrameId) {
+                animationFrameId = requestAnimationFrame(animate);
+            }
+        }
+
+        function handleMove(clientX, clientY) {
+            const rect = section.getBoundingClientRect();
+            const mouseX = clientX - rect.left;
+            const mouseY = clientY - rect.top;
+
+            if (lastX === null || lastY === null) {
+                lastX = mouseX;
+                lastY = mouseY;
+                return;
+            }
+
+            const dx = mouseX - lastX;
+            const dy = mouseY - lastY;
+            const dist = Math.hypot(dx, dy);
+            
+            // Only generate particles if mouse moved at least 10px
+            if (dist > 10) {
+                const steps = Math.min(Math.floor(dist / 14), 3);
+                for (let i = 0; i <= steps; i++) {
+                    const t = steps === 0 ? 1 : i / steps;
+                    const x = lastX + dx * t;
+                    const y = lastY + dy * t;
+                    
+                    // Spawn with 50% probability to ensure sparsity
+                    if (Math.random() > 0.5) {
+                        const rx = x + (Math.random() - 0.5) * 5;
+                        const ry = y + (Math.random() - 0.5) * 5;
+                        particles.push(createParticle(rx, ry));
+                    }
+                }
+
+                lastX = mouseX;
+                lastY = mouseY;
+                startAnimation();
+            }
+        }
+
+        section.addEventListener('mousemove', (e) => {
+            handleMove(e.clientX, e.clientY);
+        });
+
+        section.addEventListener('mouseenter', (e) => {
+            const rect = section.getBoundingClientRect();
+            lastX = e.clientX - rect.left;
+            lastY = e.clientY - rect.top;
+        });
+
+        section.addEventListener('mouseleave', () => {
+            lastX = null;
+            lastY = null;
+        });
+
+        // Touch support for mobile devices
+        section.addEventListener('touchmove', (e) => {
+            if (e.touches.length > 0) {
+                handleMove(e.touches[0].clientX, e.touches[0].clientY);
+            }
+        }, { passive: true });
+
+        section.addEventListener('touchstart', (e) => {
+            if (e.touches.length > 0) {
+                const rect = section.getBoundingClientRect();
+                lastX = e.touches[0].clientX - rect.left;
+                lastY = e.touches[0].clientY - rect.top;
+            }
+        }, { passive: true });
+
+        section.addEventListener('touchend', () => {
+            lastX = null;
+            lastY = null;
+        });
+    });
+</script>
