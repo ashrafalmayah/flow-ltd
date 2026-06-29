@@ -42,7 +42,7 @@ jobs:
               if [ -f "composer.phar" ]; then
                 COMPOSER_CMD="${{ secrets.PHP_BINARY || 'php' }} composer.phar"
               else
-                COMPOSER_CMD="composer"
+                COMPOSER_CMD="${{ secrets.PHP_BINARY || 'php' }} $(which composer)"
               fi
             fi
             $COMPOSER_CMD install --no-interaction --prefer-dist --optimize-autoloader --no-dev
