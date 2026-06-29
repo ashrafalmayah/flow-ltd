@@ -1,7 +1,7 @@
 <section id="home" x-data="{ shown: false }" x-init="setTimeout(() => shown = true, 50)" class="relative min-h-screen flex items-center overflow-hidden bg-navy-dark">
     <!-- Background cityscape layer (Static) -->
     <div class="absolute inset-0 bg-cover bg-bottom bg-no-repeat"
-         style="background-image: url('{{ asset('assets/images/background.png') }}'); background-color: #0E2248;">
+         style="background-image: url('{{ asset('assets/images/background.webp') }}'); background-color: #0E2248;">
     </div>
 
     <!-- Interactive Mouse Sparkles Canvas -->
@@ -36,7 +36,7 @@
          :style="vanStyle"
          class="absolute bottom-[4%] ltr:right-[2%] rtl:left-[12%] w-[68%] sm:w-[55%] lg:w-[48%] max-w-[650px] aspect-square pointer-events-none z-[2] transform-gpu"
          style="will-change: transform;">
-        <img src="{{ asset('assets/images/Van.png') }}" class="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.4)]" alt="Flow Van">
+        <img src="{{ asset('assets/images/Van.webp') }}" class="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.4)]" alt="Flow Van">
     </div>
 
     <!-- Layered overlay (z-[4] to merge background and van under the gradient atmosphere) -->
