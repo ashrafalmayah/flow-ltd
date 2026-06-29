@@ -27,9 +27,7 @@
             <!-- Visual Content -->
             <x-fade-up delay="200" class="relative">
                 <!-- Main Image -->
-                <div class="w-full aspect-[4/3] rounded-2xl bg-cover bg-center shadow-xl bg-slate-100"
-                     style="background-image: url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900&h=675&fit=crop&auto=format');">
-                </div>
+                <img src="{{ asset('assets/images/message.avif') }}" alt="Flow Message" class="w-full aspect-[4/3] rounded-2xl bg-cover bg-center shadow-xl bg-slate-100">
                 
                 <!-- Accent Border -->
                 <div class="absolute -top-3 ltr:-right-3 rtl:-left-3 w-full h-full rounded-2xl border-2 pointer-events-none border-steel/25"></div>
